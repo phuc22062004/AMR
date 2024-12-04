@@ -1,0 +1,6 @@
+Do đó, có thể làm  trình tự như sau:
+1) Dịch tập AMR tiếng Anh (version 1, tập nhỏ)
+2) Huấn luyện AMR cho tiếng Việt từ phần 1
+3) Tạo tập ngữ liệu chưa gán nhãn cho tiếng Việt
+4) Dùng phần 2 + ChatGPT để gán nhãn cho 3
+5) Kiểm  tra lại 4 thủ công
