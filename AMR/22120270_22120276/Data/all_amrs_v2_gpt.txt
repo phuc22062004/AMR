@@ -1,0 +1,327 @@
+# id lpp_1 date 2025-02-02T155334 annotator AMR-Generator preferred
+# snt Đang làm rõ tố cáo về bằng cấp của Bí thư Tỉnh uỷ Hải Dương
+# save-date 2025-02-02T155334 file lpp_1.txt
+(c / làm-rõ-02
+    :ARG1 (t / điều
+        :ARG1-of (c2 / gây-ra-01
+            :ARG0 (t2 / tố-cáo-01
+                :ARG0 (p / người
+                    :ARG0-of (h / have-org-role-91
+                        :ARG1 (e / bí-thư
+                            :wiki "Tỉnh_uỷ"
+                            :name (n / tên
+                                :op1 "Hải_Dương")))))))))
+
+# id lpp_2 date 2025-02-02T155415 annotator AMR-Generator preferred
+# snt Hỏa hoạn tại Hà Nội, giải cứu 5 người, 2 chị em tử vong
+# save-date 2025-02-02T155415 file lpp_2.txt
+(a / và
+    :op1 (a2 / giải-cứu-01
+        :ARG0 (h / lực-lượng-cứu-hộ)
+        :ARG1 (p / người
+            :quant 5))
+    :op2 (t / tử-vong-01
+        :ARG1 (s / chị-em
+            :quant 2)))
+
+# id lpp_3 date 2025-02-02T155449 annotator AMR-Generator preferred
+# snt Cận cảnh những cánh rừng nguyên liệu bị bão số 10 phá nát
+# save-date 2025-02-02T155449 file lpp_3.txt
+(s / cảnh-cận-01
+    :ARG0 (f / cánh-rừng
+        :mod (m / nguyên-liệu))
+    :ARG1-of (b / phá-hủy-01
+        :ARG0 (g / bão
+            :mod (n / số-10))))
+
+# id lpp_4 date 2025-02-02T155543 annotator AMR-Generator preferred
+# snt Viện KSND khẳng định không khởi tố vụ bà mẹ bị hiếp dâm 2 lần
+# save-date 2025-02-02T155543 file lpp_4.txt
+(s / khẳng-định-01
+    :ARG0 (v / viện-kiểm-sát)
+    :ARG1 (c / khởi-tố-01
+        :polarity -
+        :ARG1 (t / vụ-án
+            :ARG1-of (d / hiếp-dâm-01
+                :ARG2 (m / bà-mẹ)
+                :ARG3 (q / số-lần
+                    :quant 2)))))
+
+# id lpp_5 date 2025-02-02T155656 annotator AMR-Generator preferred
+# snt Mỹ mở rộng lệnh cấm nhập cảnh gồm Bắc Hàn
+# save-date 2025-02-02T155656 file lpp_5.txt
+(c / mở-rộng-01
+    :ARG0 (c2 / quốc-gia
+        :wiki "Mỹ"
+        :name (n / tên
+            :op1 "Mỹ"))
+    :ARG1 (c3 / lệnh-cấm
+        :ARG1 (i / nhập-cảnh))
+    :ARG2 (c4 / quốc-gia
+        :wiki "Bắc_Hàn"
+        :name (n2 / tên
+            :op1 "Bắc_Hàn")))
+
+# id lpp_6 date 2025-02-02T155748 annotator AMR-Generator preferred
+# snt Bộ Ngoại giao lên tiếng vụ cảnh sát biển Philippines bắn chết 2 ngư dân Việt Nam
+# save-date 2025-02-02T155748 file lpp_6.txt
+(s / phát-ngôn-01
+    :ARG0 (b / bộ-ngoại-giao)
+    :ARG1 (d / bắn-chết-01
+        :ARG0 (p / cảnh-sát-biển
+            :wiki "Philippines")
+        :ARG1 (n / ngư-dân
+            :quant 2
+            :mod (q / quốc-gia
+                :wiki "Việt_Nam"))))
+
+# id lpp_7 date 2025-02-02T155814 annotator AMR-Generator preferred
+# snt Arsenal – West Brom Không được phép sa chân
+# save-date 2025-02-02T155814 file lpp_7.txt
+(o / bắt-buộc-01
+    :ARG1 (e / không-sa-chân-01)
+    :ARG2 (t / trận-đấu
+        :ARG1 (c / câu-lạc-bộ
+            :wiki "Arsenal"))
+        :ARG2 (c2 / câu-lạc-bộ
+            :wiki "West_Brom")))
+
+# id lpp_8 date 2025-02-02T155856 annotator AMR-Generator preferred
+# snt Trung tướng Nga tử trận tại Syria do trúng pháo kích của IS
+# save-date 2025-02-02T155856 file lpp_8.txt
+(c / nguyên-nhân-01
+    :ARG0 (t / tử-trận-01
+        :ARG0 (p / trung-tướng
+            :mod (n / quốc-gia
+                :wiki "Nga")))
+    :ARG1 (k / pháo-kích
+        :ARG0 (i / tổ-chức
+            :wiki "IS"))
+    :location (s / Syria))
+
+# id lpp_9 date 2025-02-02T155949 annotator AMR-Generator preferred
+# snt Con rể ông Donald Trump lặp lại sai lầm của bà Clinton
+# save-date 2025-02-02T155949 file lpp_9.txt
+(r / lặp-lại-01
+    :ARG0 (p / con-rể
+        :poss (t / người
+            :wiki "Donald_Trump"))
+    :ARG1 (s / sai-lầm)
+    :ARG2 (c / người
+        :wiki "Hillary_Clinton"))
+
+# id lpp_10 date 2025-02-02T160016 annotator AMR-Generator preferred
+# snt Hà Nội Trường mầm non đang xây dựng bị sập
+# save-date 2025-02-02T160016 file lpp_10.txt
+(s / sập-01
+    :ARG1 (r / trường-mầm-non
+        :ARG1-of (d / xây-dựng-01))
+    :location (h / Hà-Nội))
+
+# id lpp_11 date 2025-02-02T160042 annotator AMR-Generator preferred
+# snt Thua trận phút chót, HAGL lên án trọng tài
+# save-date 2025-02-02T160042 file lpp_11.txt
+(r / lên-án-01
+    :ARG0 (h / câu-lạc-bộ
+        :wiki "HAGL")
+    :ARG1 (t / trọng-tài)
+    :time (m / thời-điểm
+        :mod (p / phút-chót)))
+# id lpp_12 date 2025-02-02T160148 annotator AMR-Generator preferred
+# snt Cháy tại cửa hàng xăng dầu, 4 người bị bỏng nặng
+# save-date 2025-02-02T160148 file lpp_12.txt
+(f / cháy-01
+    :location (p / cửa-hàng
+        :mod (x / xăng-dầu))
+    :ARG1 (n / người
+        :quant 4
+        :ARG1-of (b / bỏng-01
+            :mod (n2 / nặng))))
+
+# id lpp_13 date 2025-02-02T160226 annotator AMR-Generator preferred
+# snt 12 đại dự án thua lỗ ngàn tỷ đồng bây giờ ra sao
+# save-date 2025-02-02T160226 file lpp_13.txt
+(q / hỏi-01
+    :ARG1 (d / dự-án
+        :quant 12
+        :mod (đ / đại)
+        :ARG1-of (t / thua-lỗ-01
+            :ARG1 (s / số-tiền
+                :quant 1000000000
+                :unit (v / đồng))))
+    :time (b / bây-giờ))
+
+# id lpp_14 date 2025-02-02T160310 annotator AMR-Generator preferred
+# snt Chiều nay Hà Nội có thể mưa lớn giờ tan tầm
+# save-date 2025-02-02T160310 file lpp_14.txt
+(p / có-thể-01
+    :ARG1 (m / mưa-01
+        :mod (l / lớn))
+    :location (h / Hà-Nội)
+    :time (c / chiều-nay)
+    :ARG1-of (t / tan-tầm-01))
+
+# id lpp_15 date 2025-02-02T160403 annotator AMR-Generator preferred
+# snt Phó Thủ tướng Không trách nhiều chuyên gia nói 63 nền kinh tế 63 tỉnh thành
+# save-date 2025-02-02T160403 file lpp_15.txt
+(s / nói-01
+    :ARG0 (p / phó-thủ-tướng)
+    :polarity -
+    :ARG1 (n / nền-kinh-tế
+        :quant 63
+        :ARG1-of (c / chuyên-gia
+            :quant nhiều))
+    :location (t / tỉnh-thành
+        :quant 63))
+
+# id lpp_16 date 2025-02-02T160445 annotator AMR-Generator preferred
+# snt Nhiều vấn đề cần làm rõ trong đại án OceanBank
+# save-date 2025-02-02T160445 file lpp_16.txt
+(l / làm-rõ-01
+    :ARG1 (v / vấn-đề
+        :quant nhiều)
+    :location (a / đại-án
+        :mod (o / OceanBank)))
+
+# id lpp_17 date 2025-02-02T160519 annotator AMR-Generator preferred
+# snt Maya - cô người yêu cũ quyền lực nhất showbiz Việt
+# save-date 2025-02-02T160519 file lpp_17.txt
+(m / người-yêu
+    :name (n / Maya)
+    :mod (c / cũ)
+    :ARG1-of (q / quyền-lực-01
+        :degree (n2 / nhất))
+    :location (s / showbiz
+        :mod (v / Việt)))
+
+# id lpp_18 date 2025-02-02T160605 annotator AMR-Generator preferred
+# snt Thí sinh bị dọa 'chặt tay' vì đóng giả NSND Hồng Vân
+# save-date 2025-02-02T160605 file lpp_18.txt
+(d / dọa-01
+    :ARG0 (p / người)
+    :ARG1 (c / chặt-01
+        :ARG1 (t / tay))
+    :cause (g / đóng-giả-01
+        :ARG0 (s / thí-sinh)
+        :ARG1 (h / NSND-Hồng-Vân)))
+
+# id lpp_19 date 2025-02-02T160643 annotator AMR-Generator preferred
+# snt HLV Vũ Hồng Việt chỉ ra tử huyệt của U16 Việt Nam
+# save-date 2025-02-02T160643 file lpp_19.txt
+(c / chỉ-ra-01
+    :ARG0 (h / huấn-luyện-viên
+        :name (n / Vũ-Hồng-Việt))
+    :ARG1 (t / tử-huyệt)
+    :poss (đ / đội-tuyển
+        :wiki "U16-Việt-Nam"))
+
+# id lpp_20 date 2025-02-02T160737 annotator AMR-Generator preferred
+# snt Điểm tin bóng đá sáng ngày 25/9, Cavani quyết không nhường penalty cho Neymar
+# save-date 2025-02-02T160737 file lpp_20.txt
+(n / nhường-01
+    :polarity -
+    :ARG0 (c / Cavani)
+    :ARG1 (p / penalty)
+    :ARG2 (n / Neymar)
+    :time (d / ngày
+        :value "25-09"
+        :part-of (s / sáng))
+    :topic (t / tin-bóng-đá))
+
+# id lpp_21 date 2025-02-02T160853 annotator AMR-Generator preferred
+# snt Không dọa suông, Triều Tiên từng thực sự bắn hạ máy bay và bắt sống phi công Mỹ
+# save-date 2025-02-02T160853 file lpp_21.txt
+(b / bắn-hạ-01
+    :ARG0 (q / quốc-gia
+        :wiki "Triều-Tiên")
+    :ARG1 (m / máy-bay)
+    :op2 (b2 / bắt-sống-01
+        :ARG1 (p / phi-công
+            :mod (m2 / Mỹ))))
+
+# id lpp_22 date 2025-02-02T160939 annotator AMR-Generator preferred
+# snt Tổng thống Putin bất ngờ cách chức Tư lệnh Không quân Nga
+# save-date 2025-02-02T160939 file lpp_22.txt
+(c / cách-chức-01
+    :ARG0 (p / tổng-thống
+        :name (n / Putin))
+    :ARG1 (t / tư-lệnh
+        :mod (k / không-quân)
+        :location (n2 / Nga))
+    :mod (b / bất-ngờ))
+
+# id lpp_23 date 2025-02-02T161010 annotator AMR-Generator preferred
+# snt Xem máy bay ném bom của Nga khạc thổi bay kẻ thù trong chớp mắt
+# save-date 2025-02-02T161010 file lpp_23.txt
+(x / xem-01
+    :ARG1 (m / máy-bay
+        :mod (n / ném-bom)
+        :poss (n2 / Nga))
+    :ARG2 (b / thổi-bay-01
+        :ARG1 (k / kẻ-thù))
+    :time (c / chớp-mắt))
+
+# id lpp_24 date 2025-02-02T161050 annotator AMR-Generator preferred
+# snt Ai làm cho tên lửa Triều Tiên gây choáng váng thế giới
+# save-date 2025-02-02T161050 file lpp_24.txt
+(g / gây-choáng-váng-01
+    :ARG0 (a / ai)
+    :ARG1 (t / tên-lửa
+        :mod (q / Triều-Tiên))
+    :ARG2 (w / thế-giới))
+
+# id lpp_25 date 2025-02-02T161129 annotator AMR-Generator preferred
+# snt Hà Nội Kẹt đầu trong thang máy chuyển đồ ăn, một người tử vong
+# save-date 2025-02-02T161129 file lpp_25.txt
+(k / kẹt-01
+    :ARG1 (đ / đầu)
+    :location (t / thang-máy
+        :ARG1-of (c / chuyển-01
+            :ARG1 (đ2 / đồ-ăn)))
+    :ARG2 (n / người
+        :quant 1
+        :ARG1-of (t2 / tử-vong-01))
+    :location (h / Hà-Nội))
+
+# id lpp_26 date 2025-02-02T161233 annotator AMR-Generator preferred
+# snt Đồng bằng sông Cửu Long Giảm lúa, xem mặn là cơ hội
+# save-date 2025-02-02T161233 file lpp_26.txt
+(g / giảm-01
+    :ARG1 (l / lúa)
+    :location (đ / đồng-bằng
+        :part-of (s / sông-Cửu-Long))
+    :ARG2 (x / xem-01
+        :ARG1 (m / mặn)
+        :ARG2 (c / cơ-hội-01)))
+
+# id lpp_27 date 2025-02-02T161314 annotator AMR-Generator preferred
+# snt Phụ huynh không cho con đến trường để phản đối lạm thu
+# save-date 2025-02-02T161314 file lpp_27.txt
+(c / cho-01
+    :polarity -
+    :ARG0 (p / phụ-huynh)
+    :ARG1 (c2 / con)
+    :ARG2 (đ / đến-trường)
+    :purpose (p2 / phản-đối-01
+        :ARG1 (t / lạm-thu-01)))
+
+# id lpp_28 date 2025-02-02T161346 annotator AMR-Generator preferred
+# snt GrabBike và xe ôm truyền thống lại ẩu đả
+# save-date 2025-02-02T161346 file lpp_28.txt
+(a / ẩu-đả-01
+    :ARG0 (g / GrabBike)
+    :ARG1 (x / xe-ôm
+        :mod (t / truyền-thống))
+    :mod (l / lại))
+
+# id lpp_29 date 2025-02-02T161435 annotator AMR-Generator preferred
+# snt Kế toán trưởng PVN bị bắt và những góc khuất ở dự án Nhiệt điện Thái Bình 2
+# save-date 2025-02-02T161435 file lpp_29.txt
+(b / bắt-01
+    :ARG1 (k / kế-toán-trưởng
+        :poss (p / PVN))
+    :op2 (g / góc-khuất
+        :location (d / dự-án
+            :mod (n / nhiệt-điện)
+            :name (t / Thái-Bình-2))))
+
